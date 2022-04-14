@@ -78,13 +78,13 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  !  |  @  |  #  |  $  |  %  |||||  ^  |  &  |  *  |  =  |  \  |
-// | TAB |  (  |  )  |     |  ~  |||||  ←  |  ↓  |  ↑  |  →  |  '' |
+// |  !  |  @  |  #  |  $  |  %  |||||  ^  |  &  |  *  |  (  |  )  |
+// | TAB |  =  |  \  |     |  ~  |||||  ←  |  ↓  |  ↑  |  →  |  '' |
 // |  {  |  [  |  ]  |  }  |     |||||     |  -  |  +  |  `  |  /  |
 //             | GUI |     | SHF ||||| SPC |     | ALT |
                         bindings = <
-   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp EQUAL &kp BSLH
-   &kp TAB   &kp LPAR  &kp RPAR  &trans    &kp TILDE   &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &kp SQT
+   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
+   &kp TAB   &kp EQUAL  &kp BSLH  &trans    &kp TILDE   &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &kp SQT
    &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC  &trans      &none     &kp MINUS &kp PLUS        &kp GRAVE &kp FSLH
                        &kp LGUI  &none     &kp LSHFT   &kp SPACE &trans    &kp RALT
                         >;
